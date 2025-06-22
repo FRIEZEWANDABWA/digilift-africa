@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/digilift-africa/static/css/main.2760d7a2.css",
-    "main.js": "/digilift-africa/static/js/main.f2366f10.js",
+    "main.css": "/digilift-africa/static/css/main.d8355833.css",
+    "main.js": "/digilift-africa/static/js/main.8302b50e.js",
     "index.html": "/digilift-africa/index.html",
-    "main.2760d7a2.css.map": "/digilift-africa/static/css/main.2760d7a2.css.map",
-    "main.f2366f10.js.map": "/digilift-africa/static/js/main.f2366f10.js.map"
+    "main.d8355833.css.map": "/digilift-africa/static/css/main.d8355833.css.map",
+    "main.8302b50e.js.map": "/digilift-africa/static/js/main.8302b50e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2760d7a2.css",
-    "static/js/main.f2366f10.js"
+    "static/css/main.d8355833.css",
+    "static/js/main.8302b50e.js"
   ]
 }
