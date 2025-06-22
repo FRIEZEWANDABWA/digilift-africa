@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digilift-africa/static/css/main.2760d7a2.css",
+    "main.js": "/digilift-africa/static/js/main.f2366f10.js",
+    "index.html": "/digilift-africa/index.html",
+    "main.2760d7a2.css.map": "/digilift-africa/static/css/main.2760d7a2.css.map",
+    "main.f2366f10.js.map": "/digilift-africa/static/js/main.f2366f10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2760d7a2.css",
+    "static/js/main.f2366f10.js"
+  ]
+}
