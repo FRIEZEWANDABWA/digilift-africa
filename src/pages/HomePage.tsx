@@ -192,6 +192,32 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
+      {/* QR Code Section */}
+      <div className="bg-gradient-to-r from-gray-50 to-blue-50 py-16 sm:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl mb-4">
+              Curious Enough? 🤔
+            </h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Scan the QR code to explore DigiLift Africa on your mobile device!
+            </p>
+            <div className="flex justify-center">
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-2 border-dashed border-primary-300 hover:border-primary-500 transition-colors">
+                <img 
+                  src="/qr-code.png" 
+                  alt="DigiLift Africa QR Code" 
+                  className="w-48 h-48 mx-auto"
+                />
+                <p className="text-sm text-gray-500 mt-4 font-medium">
+                  📱 Scan with your phone camera
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* CTA Section */}
       <div className="bg-primary-600">
         <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">

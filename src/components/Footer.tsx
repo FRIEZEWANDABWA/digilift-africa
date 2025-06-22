@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <p className="text-sm leading-6 text-gray-300">
               DigiLift Africa is a community-powered platform transforming grassroots businesses across Africa by connecting diaspora support, digital skills, and funding. Proudly aligned with the Gates Foundation's mission of empowering every person to live a healthy and productive life.
             </p>
-            <div className="flex space-x-6">
+            <div className="flex space-x-6 mb-8">
               {[
                 { name: 'Twitter', href: '#', icon: '🐦' },
                 { name: 'LinkedIn', href: '#', icon: '💼' },
@@ -55,6 +55,21 @@ const Footer: React.FC = () => {
                   {item.icon}
                 </a>
               ))}
+            </div>
+            
+            {/* QR Code */}
+            <div className="bg-gray-800 rounded-lg p-4 inline-block">
+              <p className="text-sm font-semibold text-white mb-3 text-center">
+                Curious Enough? 🤔
+              </p>
+              <img 
+                src="/qr-code.png" 
+                alt="DigiLift Africa QR Code" 
+                className="w-24 h-24 mx-auto rounded"
+              />
+              <p className="text-xs text-gray-400 mt-2 text-center">
+                Scan to explore!
+              </p>
             </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
