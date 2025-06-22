@@ -205,7 +205,7 @@ const HomePage: React.FC = () => {
             <div className="flex justify-center">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-2 border-dashed border-primary-300 hover:border-primary-500 transition-colors">
                 <img 
-                  src="/qr-code.png" 
+                  src={`${process.env.PUBLIC_URL}/qr-code.png`} 
                   alt="DigiLift Africa QR Code" 
                   className="w-48 h-48 mx-auto"
                 />

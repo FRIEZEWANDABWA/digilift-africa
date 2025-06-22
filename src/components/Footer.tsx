@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
                 Curious Enough? 🤔
               </p>
               <img 
-                src="/qr-code.png" 
+                src={`${process.env.PUBLIC_URL}/qr-code.png`} 
                 alt="DigiLift Africa QR Code" 
                 className="w-24 h-24 mx-auto rounded"
               />
